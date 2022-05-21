@@ -66,15 +66,11 @@ int main(void){
 				
 			default:
 				printf("You wrong number!!");
-				break;
-				
-				
-		}
+				break;			
+		}	
+	printf("-------------------------------------------");	
 	
-	printf("-------------------------------------------");
-;	
 	}while( categories != 9 );
 	
-	printf("Total tax is %.3lf$", totalTax );
-	
+	printf("Total tax is %.3lf$", totalTax );	
 }
